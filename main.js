@@ -10,7 +10,7 @@ while (i < j) {
   num = i + 1;
    if ((num % 5 == 0) && (num % 3 == 0)) {
      console.log("FizzBuzz");
-     document.getElementById('numeri').innerHTML= "FizzBuzz";
+     // document.getElementById('numeri').innerHTML= "FizzBuzz";
    } else if (num % 5 == 0){
      console.log("Buzz");
      // document.getElementById('numeri').innerHTML= "Buzz";
@@ -19,7 +19,7 @@ while (i < j) {
      // document.getElementById('numeri').innerHTML= "Fizz";
    } else {
      console.log(num);
-     document.getElementById('numeri').innerHTML= num;
+     // document.getElementById('numeri').innerHTML= num;
    }
   i++;
 }
